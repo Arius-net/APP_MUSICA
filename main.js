@@ -90,12 +90,12 @@ function playPause(){
         media.pause();
         play_btn.classList.remove("pause");
         play_btn.classList.add("play");
-        play_btn.innerText = "Play"
+        play_btn.innerText = "▶"
     }else{
         media.play();
         play_btn.classList.remove("play");
         play_btn.classList.add("pause");
-        play_btn.innerText = "Pause";
+        play_btn.innerText = "⏸";
     }
 }
 
